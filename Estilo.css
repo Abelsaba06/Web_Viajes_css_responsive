@@ -78,7 +78,7 @@ list-style-type: circle;
 list-style-position: inside;
 }
 input[type=text] {
-width: 80%;
+width: 100%;
 padding: 0.5%;
 margin: auto;
 box-sizing: border-box;
@@ -203,6 +203,7 @@ video{
       border-radius: 16px;
   }
   .contenedor {
+    width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -212,6 +213,17 @@ video{
     width: 90%;
     padding: 0.5%;
   }
+
+  .columna {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  form{
+    width: 100%;
+  }
+
 }
 @media screen and (min-width:1024px){
   .columna img {
