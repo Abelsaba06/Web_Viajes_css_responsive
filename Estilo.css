@@ -163,7 +163,7 @@ video{
     align-items: center;
     justify-content: center;
 }
-
+/*css responsive para movil*/
 @media screen and (max-width:767px){
   body {
       background-color: lightblue;
@@ -225,6 +225,7 @@ video{
   }
 
 }
+/*css responsive para ordenador*/
 @media screen and (min-width:1024px){
   .columna img {
     justify-content: center;
