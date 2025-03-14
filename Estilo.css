@@ -226,7 +226,7 @@ video{
 
 }
 /*css responsive para ordenador*/
-@media screen and (min-width:1024px){
+@media screen and (min-width:1280px){
   .columna img {
     justify-content: center;
     width: 100px;
